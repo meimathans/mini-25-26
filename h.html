@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Academy</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            background: #f5f7fa;
+        }
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #fff;
+            padding: 10px 40px;
+            border-bottom: 1px solid #eee;
+        }
+        .top-bar .info {
+            display: flex;
+            gap: 40px;
+            font-size: 16px;
+            color: #333;
+        }
+        .top-bar .info span {
+            font-weight: bold;
+            color: #666;
+        }
+        .top-bar .actions {
+            display: flex;
+            gap: 10px;
+        }
+        .top-bar .actions a {
+            padding: 6px 18px;
+            border: 2px solid #007bff;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+             background: #f8f9fa;
+            transition: background 0.2s;
+        }
+        .top-bar .actions a:hover {
+            background: #e2e6ea;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background: #ffe4ea;
+            border-bottom: 1px solid #eee;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar li {
+            position: relative;
+        }
+        .navbar a {
+            display: block;
+            padding: 18px 0;
+            text-decoration: none;
+            color: #222;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.2s;
+        }
+        .navbar a:hover {
+            color: #007bff;
+        }
+        .main-bg {
+            background: url('new.png') center/cover no-repeat;
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .main-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .main-content h1 {
+            font-size: 3em;
+            color: #222;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .main-content p {
+            font-size: 1.3em;
+            color: #333;
+            margin-bottom: 40px;
+        }
+        .main-content .btn-group {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+        }
+        .main-content .btn-group a {
+            padding: 16px 40px;
+            font-size: 1.1em;
+            border-radius: 8px;
+            border: none;
+            background: #438402;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: background 0.2s;
+        }
+        .main-content .btn-group a:hover {
+            background: #057a0f;
+        }
+        .about-section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 12px #e0e0e0;
+        }
+        .about-section h2 {
+            color: #888;
+            font-size: 18px;
+            font-weight: normal;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        .about-section h3 {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+        .about-section p {
+            font-size: 17px;
+            color: #222;
+            line-height: 1.7;
+        }
+        .courses-section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 12px #e0e0e0;
+        }
+        .courses-section h2 {
+            color: #888;
+            font-size: 18px;
+            font-weight: normal;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        .courses-section ul {
+            font-size: 17px;
+            color: #222;
+            line-height: 2.2;
+            margin: 0;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="info">
+            <span>EMAIL</span> info@academy.in
+            <span>CALL</span> +91 9677692214
+        </div>
+        <div class="actions">
+            <a href="#">ONLINE TEST</a>
+            <a href="login.html">STUDENT LOGIN</a>
+        </div>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="home1.html">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="course.html">COURSES</a></li>
+            <li><a href="achiev.html">ACHIEVEMENTS</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">LEARNING CORNER</a></li>
+            <li><a href="#">VIDEOS</a></li>
+        </ul>
+    </nav>
+    <div class="main-bg">
+        <div class="main-content">
+            <h1>Welcome to our Academy</h1>
+            <p>
+                Empowering Aspirants to Achieve Their Dreams in Civil Services and Competitive Exams.<br>
+                Join us and start your journey to success!
+            </p>
+            <div class="btn-group">
+                <a href="signup.html">Sign Up</a>
+                <a href="login.html">Login</a>
+            </div>
+        </div>
+    </div>
+    

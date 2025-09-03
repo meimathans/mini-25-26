@@ -6,7 +6,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #f2f2f2;
+            background: whitesmoke;
         }
         .container {
             width: 350px;
@@ -48,11 +48,17 @@
             text-decoration: none;
         }
     </style>
+    <script>
+        function goToHome(event) {
+            event.preventDefault();
+            window.location.href = "home.html";
+        }
+    </script>
 </head>
 <body>
     <div class="container">
         <h2>Login</h2>
-        <form>
+        <form onsubmit="goToHome(event)">
             <input type="text" placeholder="Username" required>
             <input type="password" placeholder="Password" required>
             <button type="submit">Login</button>
@@ -60,6 +66,3 @@
         <div class="signup-link">
             Don't have an account? <a href="signup.html">Sign Up</a>
         </div>
-    </div>
-</body>
-</html>
